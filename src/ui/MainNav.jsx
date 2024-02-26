@@ -50,7 +50,7 @@ export default function MainNav() {
   return (
     <nav>
       <NavList>
-        <ul>
+        
           <li>
             <StyledNavLink to="/dashboard">
               <HiOutlineHome />
@@ -81,7 +81,7 @@ export default function MainNav() {
               <span>Settings</span>
             </StyledNavLink>
           </li>
-        </ul>
+        
       </NavList>
     </nav>
   );
