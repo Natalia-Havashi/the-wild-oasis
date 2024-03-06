@@ -1,6 +1,6 @@
-import Filter from 'ui/Filter';
+import Filter from '../../ui/Filter';
 
-function DashboardFilter() {
+export default function DashboardFilter() {
   return (
     <Filter
       filterField='last'
@@ -13,4 +13,4 @@ function DashboardFilter() {
   );
 }
 
-export default DashboardFilter;
+
