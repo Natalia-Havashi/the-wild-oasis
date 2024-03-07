@@ -1,5 +1,5 @@
 import { formatCurrency } from "../../utils/helpers";
-import Stat from "../dashboard/Stat";
+import Stat from "./Stat";
 import {
   HiOutlineBanknotes,
   HiOutlineBriefcase,
